@@ -19,7 +19,7 @@ class App extends Component {
     )
 
     //  api call
-    axios.post("https://0jsf7wqc5d.execute-api.us-east-1.amazonaws.com/Prod/file-upload", formData).then(() => {
+    axios.post("https://r3bjn1jjhl.execute-api.us-east-1.amazonaws.com/dev/inde-file-storage", formData).then(() => {
       this.setState({ selectedFile: null });
       this.setState({ fileUploadedSuccessfully: true });
     })
